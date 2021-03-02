@@ -1,0 +1,44 @@
+doctype html
+html
+   head
+      title Contact Us page
+      style
+             include ../style.css
+      link(rel="preconnect",href="https://fonts.gstatic.com")
+      link(href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap",rel="stylesheet")
+   body
+    header 
+      h1.title Contact Us
+      nav.navBar 
+        ul 
+            li 
+                a(href='/' class="navClick") Home 
+            li 
+                a(href='/Contact' class="navClick") Contact us 
+            li 
+                a(href='/Services' class="navClick") Our Services 
+    main 
+     div.formContact
+        h1.contactTitle Send your request here : 
+        form 
+            div 
+                label(for="formfirstname") First name :
+                br 
+                input(type="text", id="formfirstname" ,placeholder="First name")
+            div 
+                label(for="formlastname") Last name : 
+                br
+                input(type="text", id="formlastname",placeholder="Last name")
+            div 
+                label(for="formadress") Adress : 
+                br
+                input(type="text", id="formadress",placeholder="Adress")
+            div 
+                label(for="formemail") E-mail : 
+                br
+                input(type="email", id="formemail",placeholder="Email")
+            div 
+                label(for="formrequest") Your message : 
+                br
+                textarea(type="text", id="formrequest",placeholder="type your request here") 
+            button(type="button") submit 

@@ -1,0 +1,120 @@
+body {
+    margin : 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.title {
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.navBar {
+    float: right;
+    margin-right: 2em
+}
+
+header {
+    background-color: black;
+    margin : 0; 
+    padding: 0.5em;
+}
+
+li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
+}
+
+ul {
+    margin : 0.5em auto
+}
+
+.navClick {
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.navClick :hover {
+    color: yellow;
+}
+
+img {
+    width: 100% 
+}
+
+main  {
+    background-image: url('https://i.pinimg.com/originals/f4/91/ac/f491acfc2b96e3f1be7f4548065ee461.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.card{
+    width: 30% ;
+    background-color: #e6e6e6;
+    margin-bottom: 2%;
+}
+
+.imgTitle {
+    margin : 0 ; 
+    text-align: center;
+}
+
+.container {
+    padding: 15.5% 19.5% 20.9%;
+    margin: 0;
+}
+
+.homePageTitle {
+    font-size: 60px;
+    text-align: center; 
+    margin : 0 ; 
+    position: 30% 50% ; 
+    color : white ; 
+    -webkit-text-stroke: 2px black;  
+}
+
+input {
+    width: 80% ; 
+    margin: 1.5% 
+}
+
+textarea {
+    width: 80% ; 
+    margin: 0.5% 
+}
+
+.formContact {
+    text-align: center 
+}
+
+.contactTitle {
+    margin-top : 0 
+}
+
+.formContact {
+    padding-top: 4% ;
+    padding-bottom: 6% ;
+}
+
+form {
+    background-color:#f2f2f2; 
+    margin: auto 25% ; 
+    padding: 2% ; 
+    border-radius : 2em 
+}
+
+h1 {
+    margin-top: 0; 
+}
+
+.servicesDiv  {
+    margin-top: 0;
+    text-align : center ; 
+    padding-top: 6% ; 
+    padding-bottom: 8.5%  ; 
+    color : white ; 
+    -webkit-text-stroke: 2px black;  
+}
